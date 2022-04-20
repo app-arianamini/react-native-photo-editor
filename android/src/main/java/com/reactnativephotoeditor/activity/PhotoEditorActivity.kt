@@ -333,7 +333,6 @@ open class PhotoEditorActivity : AppCompatActivity(), OnPhotoEditorListener, Vie
   }
 
   private fun showSaveDialog() {
-    dialog.dismiss()
     return
     val builder = AlertDialog.Builder(this)
     builder.setMessage(getString(R.string.msg_save_image))
